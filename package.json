@@ -1,0 +1,58 @@
+{
+  "name": "robot-convert-docx-to-pdf",
+  "description": "Converts documents from docx to pdf",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tfk",
+    "Telemark fylkeskommune",
+    "Pdf",
+    "MinElev"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telemark/robot-convert-docx-to-pdf"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/robot-convert-docx-to-pdf/issues"
+  },
+  "homepage": "https://github.com/telemark/robot-convert-docx-to-pdf",
+  "devDependencies": {
+    "ava": "0.19.1",
+    "coveralls": "2.13.1",
+    "nsp": "2.6.3",
+    "nyc": "11.0.2",
+    "standard": "10.0.2"
+  },
+  "dependencies": {
+    "unoconv2": "1.0.0",
+    "uuid": "3.0.1",
+    "winston": "2.3.1",
+    "winston-papertrail": "1.0.5"
+  }
+}
