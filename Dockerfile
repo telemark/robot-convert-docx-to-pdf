@@ -1,11 +1,5 @@
-###########################################################
-#
-# Dockerfile for tfk-saksbehandling-elev-varsel
-#
-###########################################################
-
-# Setting the base to docker-node-unoconv
-FROM zrrrzzt/docker-node-unoconv
+# Setting the base to docker-node-unoconv:1.0.0
+FROM telemark/docker-node-unoconv:1.0.0
 
 # Maintainer
 MAINTAINER Geir Gåsodden
