@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/telemark/robot-convert-docx-to-pdf",
   "devDependencies": {
-    "ava": "0.19.1",
+    "ava": "0.20.0",
     "coveralls": "2.13.1",
     "nsp": "2.6.3",
     "nyc": "11.0.2",
