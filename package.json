@@ -1,7 +1,7 @@
 {
   "name": "robot-convert-docx-to-pdf",
   "description": "Converts documents from docx to pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "private": true,
   "author": {
