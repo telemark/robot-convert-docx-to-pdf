@@ -19,6 +19,6 @@ getNextJobFromQueue()
     process.exit(0)
   })
   .catch(error => {
-    logger('error', ['index', 'error', JSON.stringify(error)])
+    logger('error', ['index', 'error', error])
     process.exit(1)
   })
