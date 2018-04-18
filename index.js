@@ -1,5 +1,3 @@
-'use strict'
-
 const getNextJobFromQueue = require('./lib/steps/get-next-job-from-queue')
 const getFileData = require('./lib/steps/get-file-data')
 const convertDocxToPdf = require('./lib/steps/convert-docx-to-pdf')
