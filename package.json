@@ -53,7 +53,7 @@
   "dependencies": {
     "better-unoconv": "1.0.3",
     "uuid": "3.2.1",
-    "winston": "2.4.1",
+    "winston": "2.4.2",
     "winston-papertrail": "1.0.5"
   }
 }
