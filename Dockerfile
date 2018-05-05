@@ -1,5 +1,5 @@
 # Setting the base to docker-node-unoconv:8.11.1
-FROM telemark/docker-node-unoconv:8.11.1@sha256:1bb51c364ca4c111b4f35dced48ee4f741e2d9adc7993e4dbb097cf20d247850
+FROM telemark/docker-node-unoconv:8.11.2@sha256:a0ccd23cec011eb679b5b8f32f068193133f008fed1f2acfb7f279d8793eb1fd
 
 #### Begin setup ####
 
