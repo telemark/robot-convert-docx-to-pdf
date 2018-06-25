@@ -18,10 +18,10 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.11.3"
+    "node": ">=10.5.0"
   },
   "scripts": {
-    "test": "standard && nsp check && ava",
+    "test": "standard && npm audit && ava",
     "test-offline": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
@@ -32,8 +32,9 @@
   "keywords": [
     "tfk",
     "Telemark fylkeskommune",
-    "Pdf",
-    "MinElev"
+    "pdf",
+    "docx",
+    "convert"
   ],
   "repository": {
     "type": "git",
@@ -46,7 +47,6 @@
   "devDependencies": {
     "ava": "0.25.0",
     "coveralls": "3.0.1",
-    "nsp": "3.2.1",
     "nyc": "12.0.2",
     "standard": "11.0.1"
   },
