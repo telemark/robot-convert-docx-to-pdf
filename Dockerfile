@@ -1,4 +1,4 @@
-FROM telemark/docker-node-unoconv:10.5.0@sha256:4e1bffcdf36d9069e2febd25b333bf6465d4907b9797a101cf38ca21a4029d19
+FROM telemark/docker-node-unoconv:10.7.0@sha256:14656bd333f8f6fe1e3581c8ee484de3847b768910a54310001ffbf3e1f13f66
 
 #### Begin setup ####
 
