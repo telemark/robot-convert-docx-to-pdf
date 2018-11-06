@@ -40,5 +40,3 @@ This will start a container. Do the job. Stop the container and remove it.
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of robot-convert-docx-to-pdf](https://robots.kebabstudios.party/robot-convert-docx-to-pdf.png "Robohash image of robot-convert-docx-to-pdf")
