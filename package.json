@@ -48,7 +48,7 @@
     "ava": "3.15.0",
     "coveralls": "3.1.0",
     "nyc": "15.1.0",
-    "standard": "14.3.3"
+    "standard": "14.3.4"
   },
   "dependencies": {
     "lib-unoconv": "0.1.2",
