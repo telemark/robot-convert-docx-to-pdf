@@ -53,7 +53,7 @@
   "dependencies": {
     "lib-unoconv": "0.1.2",
     "uuid": "8.0.0",
-    "winston": "2.4.6",
+    "winston": "2.4.7",
     "winston-papertrail": "1.0.5"
   }
 }
